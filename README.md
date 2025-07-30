@@ -65,15 +65,16 @@ data/
 │   ├── train_images/
 │   └── val_images/
 ├── nlvr2/
-│  ├── images/
-│  ├── train.json
-│  ├── val.json
-│└── test.json
-├──  flickr30k/ 
- │ ├── images/
- │ ├── train.json
- │ ├── val.json
- │└── test.json
+│   ├── images/
+│   ├── train.json
+│   ├── val.json
+│   └── test.json
+├── flickr30k/ 
+│   ├── images/
+│   ├── train.json
+│   ├── val.json
+│   └── test.json
+
  ==注意：这里的Annotations存的也是这些json文件，也就是标注信息==
  ## 利用官方预训练权重进行下游任务微调与评估
  在开始训练之前，最好在huggingface上手动下载一个bert-base-uncased的模型权重和配置文件，因为如果自动下载的话，可能出现网络问题，[下载地址](https://huggingface.co/google-bert/bert-base-uncased)
